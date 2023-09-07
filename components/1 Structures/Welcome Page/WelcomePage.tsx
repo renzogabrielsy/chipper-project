@@ -84,8 +84,8 @@ export const WelcomePage = (props: Props) => {
           <h1 className="text-2xl font-bold">Welcome to</h1>
           <h1 className="text-4xl font-bold">Chipper V1</h1>
           <p className="text-center text-lg font-semibold">
-            Renzo's cool little web-based app featuring his own music and some
-            of his favorites on Spotify!
+            {`Renzo's cool little web-based app featuring his own music and some
+            of his favorites on Spotify!`}
           </p>
 
           <p className="text-center text-sm italic">

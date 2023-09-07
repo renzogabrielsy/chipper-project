@@ -85,7 +85,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
 
   return (
     <>
-      {!session ? (
+      {!session || !session.provider_token ? (
         <div className="flex justify-center items-center h-full">
           <WelcomePage />
         </div>

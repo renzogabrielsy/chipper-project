@@ -109,7 +109,6 @@ export const RenzoSongs: React.FC<RenzoSongsProps> = ({
               </button>
             </div>
           ) : (
-            <>
               <div
                 key={index}
                 className="flex flex-row items-center justify-between w-full"
@@ -148,7 +147,6 @@ export const RenzoSongs: React.FC<RenzoSongsProps> = ({
                     .padStart(2, "0")}
                 </span>
               </div>
-            </>
           )
         )}
       </div>

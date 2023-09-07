@@ -127,7 +127,6 @@ export const AlbumPerfectly: React.FC<SongsProps> = ({
               </button>
             </div>
           ) : (
-            <>
               <div
                 key={index}
                 className="flex flex-row items-center justify-between w-full"
@@ -166,7 +165,6 @@ export const AlbumPerfectly: React.FC<SongsProps> = ({
                     .padStart(2, "0")}
                 </span>
               </div>
-            </>
           )
         )}
       </div>
