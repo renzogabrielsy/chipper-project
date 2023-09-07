@@ -58,16 +58,6 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
     fetchData();
   }, []);
 
-  const handleLogin = async () => {
-    const { error } = await signInWithSpotify();
-    if (error) {
-      setLoginError(
-        "Oops! Something went wrong with logging in. Please try again."
-      );
-    } else {
-      setLoginError(null);
-    }
-  };
 
   useEffect(() => {
     // Set up a session subscription when component mounts
@@ -135,7 +125,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
                 
               </Box>
             </div>
-            <main className="h-[100%] flex-1 overflow-y-auto py-2 pr-2">
+            <main className="h-[96%] md:h-[100%] flex-1 overflow-y-auto py-2 pl-2 md:pl-0 pr-2">
               {children}
             </main>
           </div>

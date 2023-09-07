@@ -90,7 +90,8 @@ export default function Home() {
           <p
             className="
           text-white
-          text-sm
+          text-xs
+          md:text-sm
           font-normal
           ml-5
           "
