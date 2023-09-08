@@ -59,7 +59,6 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
     const fetchSession = async () => {
       const { data } = await getSession();
       setSession(data?.session || null);
-      console.log(data?.session?.provider_token);
     };
 
     fetchSession();

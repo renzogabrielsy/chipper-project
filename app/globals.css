@@ -15,3 +15,8 @@ body,
   background-attachment: fixed; /* keeps the image fixed on scroll */
 
 }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
